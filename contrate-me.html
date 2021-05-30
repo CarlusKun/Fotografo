@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Carlus Fotografo</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel = "preconnect" href = "https://fonts.gstatic.com">
+<link href = "https://fonts.googleapis.com/css2? family = Dança + Script: wght @ 700 & family = Josefin + Sans: ital, wght @ 0,200; 1.200 & family = Lato: wght @ 300 & display = swap "rel =" stylesheet ">
+    </head>
+    <body>
+        
+        <header> 
+            <h2 id = "marcaPag"> Carlus Fotos </h2>
+           
+            <nav class = "navegacao">
+                <ul class = "nav-lista">
+                    <li class = "nav-lista-item"> 
+                        <a class = "nav-link" href="index.html"> Home </a>
+                    </li>
+                    <li class = "nav-lista-item">
+                        <a class = "nav-link" href="fotos.html">Fotos</a>
+                    </li>
+                    <li class = "nav-lista-item">
+                        <a class = "nav-link" href="contrate-me.html">Contrate-me</a>
+                    </li>
+                </ul>
+            </nav>
+            <a href="index.html"><img id = "logo" src="IMG/LOGO2.png" ></a>
+                     
+        </header>
+
+    <form action="XX" method="post">
+        <fieldset>
+            <legend> Contato </legend>
+            <label for="nome">Seu Nome: </label> <br>
+            <input type="text" name= "Nome" id= "nome" size = "50px" 
+            required placeholder="Nome completo" >
+            <br>
+            
+            <label for="dataNascimento">Data Nasc: </label> <br>
+            <input type="text" name = "dataNascimento" id="dataNascimento"
+            placeholder="DD/MM/AA">
+            <br>
+
+            <label for="CPF">CPF:</label><br>
+            <input type="text" class="form-control cpf-mask" placeholder="000.000.000-00">
+            <br>
+            <label for="CEP">CEP:</label><br>
+            <input type="text" class="form-control cep-mask" placeholder="00000-000">
+            <br>
+        
+            <label for="CELULAR">Celular:</label><br>
+            <input type="text" class="form-control cel-sp-mask" placeholder="(00) 00000-0000">
+             <br>
+            
+            
+            <label for="Serviço Desejado">Serviço Desejado</label> <br>
+            <select name= "Serviço Desejado" id="Serviço Desejado">
+                <option value="Book">Fotos para Book </option>
+                <option value="Fotos do seu Casamento">  Fotos do seu Casamento</option>
+                <option value="Fotos de Eventos">Fotos de Eventos </option>
+            </select>
+            <br>
+            
+            <label for="mensagem">Mensagem: </label> <br>
+            <textarea name="mensagem" id="mensagem" cols="30" rows="5"></textarea>
+            <br>
+            <input type="submit" name="btnEnvio" value ="Enviar">
+            &nbsp;&nbsp;
+            <input type="reset" name="btnReset" value="Limpar">               
+
+        </fieldset>
+
+        <footer class = "rodape">
+            <section class = "rodape-secao">
+                <h3> Contato</h3>
+                <p>(11) 95236 - 5733 </p>
+                <p>carlusfotos@gmail.com</p>
+            </section>
+            <section class = "rodape-secao">
+                <h3>Endereço</h3>
+                <p>Avenida Paulista </p>
+                <p>São Paulo, SP</p>
+            </section>
+            <section class = "rodape-secao">
+                <p>Carlos Vinicius do Nascimento Ferreira </p>
+                <p>RGM: 26199696 </p>
+                <p>Análise e Desenvolvimento de Sistemas</p>
+            </section>  
+        </footer>
+            
+</body>
+</html>
